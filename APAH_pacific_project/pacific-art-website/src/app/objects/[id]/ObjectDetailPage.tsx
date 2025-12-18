@@ -84,34 +84,34 @@ export default function ObjectDetailPage({ params }: { params: { id: string } })
           <div className="bg-white overflow-hidden shadow rounded-lg">
             <div className="px-4 py-5 sm:p-6">
               {/* Artist */}
-              {object.artist && (
+              {(object as any).artist && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Artist</h2>
-                  <p className="text-gray-700">{object.artist}</p>
+                  <p className="text-gray-700">{(object as any).artist}</p>
                 </div>
               )}
 
               {/* Period/Style */}
-              {object.periodStyle && (
+              {(object as any).periodStyle && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Period/Style</h2>
-                  <p className="text-gray-700">{object.periodStyle}</p>
+                  <p className="text-gray-700">{(object as any).periodStyle}</p>
                 </div>
               )}
 
               {/* Patron */}
-              {object.patron && (
+              {(object as any).patron && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Patron</h2>
-                  <p className="text-gray-700">{object.patron}</p>
+                  <p className="text-gray-700">{(object as any).patron}</p>
                 </div>
               )}
 
               {/* Original Location */}
-              {object.originalLocation && (
+              {(object as any).originalLocation && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Original Location</h2>
-                  <p className="text-gray-700">{object.originalLocation}</p>
+                  <p className="text-gray-700">{(object as any).originalLocation}</p>
                 </div>
               )}
 
@@ -122,35 +122,35 @@ export default function ObjectDetailPage({ params }: { params: { id: string } })
               </div>
 
               {/* Technique / Visual Description / Style */}
-              {(object.technique || object.visualDescription) && (
+              {((object as any).technique || (object as any).visualDescription) && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Technique / Visual Description / Style</h2>
-                  {object.technique && <p className="text-gray-700 mb-2">{object.technique}</p>}
-                  {object.visualDescription && <p className="text-gray-700">{object.visualDescription}</p>}
+                  {(object as any).technique && <p className="text-gray-700 mb-2">{(object as any).technique}</p>}
+                  {(object as any).visualDescription && <p className="text-gray-700">{(object as any).visualDescription}</p>}
                 </div>
               )}
 
               {/* Subject */}
-              {object.subject && (
+              {(object as any).subject && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Subject</h2>
-                  <p className="text-gray-700">{object.subject}</p>
+                  <p className="text-gray-700">{(object as any).subject}</p>
                 </div>
               )}
 
               {/* Historical Context */}
-              {object.historicalContext && (
+              {(object as any).historicalContext && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Historical Context</h2>
-                  <p className="text-gray-700">{object.historicalContext}</p>
+                  <p className="text-gray-700">{(object as any).historicalContext}</p>
                 </div>
               )}
 
               {/* Message / Meaning / Full Analysis */}
-              {object.analysis && (
+              {(object as any).analysis && (
                 <div className="mb-6">
                   <h2 className="text-xl font-bold text-gray-900 mb-2">Message / Meaning / Full Analysis</h2>
-                  <p className="text-gray-700">{object.analysis}</p>
+                  <p className="text-gray-700">{(object as any).analysis}</p>
                 </div>
               )}
 

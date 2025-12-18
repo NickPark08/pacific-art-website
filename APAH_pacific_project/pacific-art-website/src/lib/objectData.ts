@@ -212,6 +212,36 @@ export const objectDetails = {
       { id: '3', title: 'Textiles & Weaving' }
     ]
   },
+  '14': {
+    id: '14',
+    title: 'Navigation Chart',
+    artist: 'Unknown (Marshallese navigators)',
+    periodStyle: 'Micronesian; Oceanic Knowledge Systems',
+    culture: 'Marshall Islands',
+    date: '19th–early 20th century C.E.',
+    patron: 'Navigator families',
+    originalLocation: 'Marshall Islands',
+    material: 'Wood and fiber',
+    technique: 'Abstract linear framework construction',
+    visualDescription: 'Abstract linear framework using sticks to represent wave patterns and shells to indicate islands',
+    subject: 'Ocean navigation system',
+    historicalContext: 'Used as teaching tools in a non-written navigational tradition, passed down through generations of seafarers.',
+    analysis: 'The chart represents advanced indigenous science and deep understanding of ocean behavior rather than literal geography. It embodies a complex system of knowledge about wave patterns, currents, and star navigation.',
+    theme: 'Navigation & Seafaring',
+    themeId: '2',
+    description: 'A traditional stick chart used by Marshallese navigators to teach wave patterns and island locations.',
+    overview: 'A traditional stick chart used by Marshallese navigators to teach wave patterns and island locations.',
+    culturalPurpose: 'These charts were not used at sea but served as teaching tools to pass down navigational knowledge between generations of seafarers.',
+    materials: 'Palm ribs tied with coconut fiber to represent wave patterns, with shells indicating island locations.',
+    themeFit: 'The charts demonstrate the sophisticated navigational knowledge of Pacific Islanders and their deep understanding of ocean currents and wave patterns.',
+    images: ['/images/navigation.jpg'],
+    icon: '🧭',
+    location: { x: 63, y: 42 },
+    coords: { lat: 7.1, lng: 171.4 },
+    themes: [
+      { id: '2', title: 'Navigation & Seafaring' }
+    ]
+  },
   '15': {
     id: '15',
     title: 'Portrait of Tamati Waka Nene',
